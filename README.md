@@ -1,3 +1,32 @@
+# Keith's Heading
+
+Project notes here with original README below. Then I'll rewrite this if it works. Initially, I want to: 
+- deploy to Cloudflare Pages. 
+Then later:
+- add PWA capabilities, including push notifications (OneSignal).
+Amend this todo list as project progresses. Adding detailed notes below with latest changes first
+
+## yymm02a Branch3
+
+## yymmddb Branch2
+
+## 210818b 1st Config
+Usually, I create a 1st Config branch to get a working site with config changes as per original README instructions and note files changed with any additional notes. Most of this detail is deleted from final README but it serves to keep track of installation progress. I can't find any configuraton notes in the Smix code. But here's what I've found to change so far:
+- /src/data/site.json - author info
+- /src/layouts/default.liquid - not been personalized so not sure this is right place
+
+So I'll deploy to Cloudflare now, and investigate live site for required changes.
+
+## 210818a Preparation
+Notes for my workflow instructions:
+- Created new repo (not fork because that seems to imply a commitment to update original which is not my intention for my own starter. Not sure what best practise is)
+- Imported https://github.com/hirusi/smix-eleventy-starter
+- Renamed LICENSE to LICENSE-smix and used `Add file` to add a BSD-3 LICENSE (see commit notes for reasoning). Note: Github helpfully offers templates when the new filename is LICENSE.
+
+## Original Smix README below...
+
+***
+
 # 🌻 Smix
 __A gulp-based starter for Static Site Generators, preconfigured for Eleventy and Forestry CMS.__
 
